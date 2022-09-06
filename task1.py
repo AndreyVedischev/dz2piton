@@ -3,3 +3,13 @@
 # Пример:
 
 # - 0,56 -> 11
+
+num = input('Введите вещественное число: ')
+
+sum = 0
+
+for i in str(num):
+    if i != ".":
+        sum += int(i)
+print(sum)
+
