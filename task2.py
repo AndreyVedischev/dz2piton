@@ -6,8 +6,16 @@
 
 n = int(input('Введите число:'))
 
-res = 1
+# res = 1
 
-for i in range(1, n+1):
-    print({res}, end=" ")
-    res *= i + 1
+# for i in range(1, n + 1):
+#     print({res}, end=" ")
+#     res *= i + 1
+
+
+n_list = []
+number = 1
+for i in range(0, n):
+    number *= i + 1
+    n_list.append(number)
+print(n_list)
